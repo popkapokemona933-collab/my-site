@@ -1,0 +1,37 @@
+CSS
+/* Налаштування для всієї сторінки */
+body {
+    background-color: #fdfdfd; /* Майже білий фон */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8; /* Відстань між рядками */
+    padding: 30px;
+}
+
+/* Налаштування заголовка 1-го рівня */
+h1 {
+    color: #2e86de; /* Синій колір */
+    text-align: center; /* Текст по центру */
+    text-transform: uppercase; /* Тільки великі літери */
+    text-shadow: 2px 2px 5px lightgrey; /* Тінь під текстом */
+}
+
+/* Налаштування підзаголовка 2-го рівня */
+h2 {
+    color: #e05253; /* Червоний колір */
+    border-left: 5px solid #e05253; /* Лінія зліва від тексту */
+    padding-left: 10px; /* Відступ від лінії до тексту */
+}
+
+/* Налаштування всіх абзаців */
+p {
+    color: #222f3e; /* Темно-сірий колір */
+    font-size: 18px; /* Розмір шрифту */
+    text-align: justify; /* Вирівнювання по ширині */
+}
+
+/* Налаштування посилань */
+a {
+    color: #10ac84; /* Зелений колір */
+    text-decoration: none; /* Прибрати підкреслення */
+    font-weight: bold; /* Жирний текст */
+}
